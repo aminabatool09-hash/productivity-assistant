@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usecases</title>
+</head>
+<body>
+<!--header-->
+     <h1>Use Cases</h1>
+<!--Usecases diagram section-->
+
+<section>
+<h2>Usecases diagram section</h2>
+<p>The Use Case Diagram illustrates the interaction between the User, System (Productivity Assistant), Smart Home Devices, and Third-Party APIs.
+It shows how different actors perform tasks like managing reminders, controlling devices, or retrieving information.</p>
+<!--image placeholder-->
+
+<img src="usecase diagram.png" alt="Use case Diagram" width="600">
+
+<!--usecase description section-->
+<h2>Use Case Descriptions</h2>
+<p>Each use case describes how an actor interacts with the Productivity Assistant to complete a specific goal.
+It includes details such as the ID, title, primary actor, preconditions, postconditions, main flow, and possible exceptions.</p>
+<ul>
+    <li>
+        <strong>FR2.1.1</strong>- Respond to Voice Commands
+    </li>
+    <li>
+        <strong>FR2.1.2</strong> – Input Queries and Commands (Text)
+    </li>
+    <li>
+        <strong>FR2.1.3</strong> – Communicate in Multiple Languages
+    </li>
+    <li>
+        <strong>FR2.1.4</strong> – Understand Natural Language
+    </li>
+    <li>
+        <strong>FR2.1.5</strong> – Maintain Conversation Context
+    </li>
+    <li>
+        <strong>FR2.1.6</strong> – Suggest Tasks or Reminders
+    </li>
+    <li>
+        <strong>FR2.2.1</strong> – Execute Routine Commands via Single Trigger
+    </li>
+    <li>
+        <strong>FR2.2.2</strong> – Control Smart Devices
+    </li>
+    <li>
+        <strong>FR2.3.1</strong> – Manage Calendar Events
+    </li>
+    <li>
+        <strong>FR2.3.2</strong> – Manage Alarms and Reminders
+    </li>
+    <li>
+        <strong>FR2.4.1</strong> – Provide Real-Time Translation
+    </li>
+    <li>
+        <strong>FR2.4.2</strong> – Control Media Playback
+    </li>
+    <li>
+        <strong>FR2.4.3</strong> – Retrieve Information from Web
+    </li>
+    <li>
+        <strong>FR2.4.4</strong> – Navigation Assistance
+    </li>
+    <li>
+        <strong>FR2.4.5</strong> – Send and Read Messages / Make Calls
+    </li>
+    <li>
+        <strong>FR2.4.6</strong> – Trigger Reports or Actions via Voice
+    </li>
+    <li>
+        <strong>FR2.5.1</strong> – Enforce Session Timeout
+    </li>
+    <li>
+        <strong>FR2.5.2</strong> – Respect Geolocation Privacy
+    </li>
+    <li>
+        <strong>FR2.5.3</strong> – Confirm Critical Commands
+    </li>
+</ul>
+</section>
+<!-- Back Link -->
+  <footer>
+    <a href="initial.html">Back to Home</a>
+  </footer>    
+</body>
+</html>
