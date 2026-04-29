@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Architecture</title>
+</head>
+<header>
+    <h1>System Arechitecture</h1>
+</header>
+<!--Architecture section-->
+<section>
+    <!--Overview-->
+    <p>The System Architecture shows how the User, Smart Home Devices, the Productivity Assistant, and Third-Party APIs interact. It illustrates how commands are processed, data flows between components, and services like reminders, device control, and information retrieval are performed.</p>
+    <!--high level components-->
+    <h3>High-Level Components:</h3>
+    <ul>
+        <li>
+            <strong>User Interface (UI):</strong>Receives commands and displays responses to the user.
+        </li>
+        <li>
+            <strong>Application Logic / Backend:</strong>Processes user requests, applies business rules, and communicates with databases or APIs.
+        </li>
+        <li>
+            <strong>Database / Storage:</strong>Stores user data, reminders, device configurations, and preferences.
+        </li>
+        <li>
+            <strong>Third-Party APIs:</strong>Provides additional services like weather updates, calendar events, or map data.
+        </li>
+        <li>
+            <strong>Smart Home Devices:</strong>Controlled by the system to execute routines, alarms, or automation.
+        </li>
+    </ul>
+    <!--Component interaction-->
+    <h3>Component Interaction</h3>
+    <ul>
+    <li>The user sends commands via the UI → backend processes requests → fetches or updates data in the database → calls external APIs if needed → sends response back to the UI. Smart Home Devices receive instructions directly from the backend.</li>
+    </ul>
+    <!--data flow-->
+    <h3>Data Flow</h3>
+    <ul>
+    <li>User → UI → Backend → Database / API → Backend → UI / Devices</li>
+    </ul>
+</section>
+<!--home page reference-->
+<footer>
+<a href="initial.html">Back to Home</a>
+</body>
+</html>
